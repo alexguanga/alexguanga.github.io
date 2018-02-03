@@ -23,10 +23,27 @@ url: "alexguanga.com" # the base hostname & protocol for your site, e.g. http://
 twitter_username: alexguangaa
 github_username: alexguanga
 
+# homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+
 # Build settings
 markdown: kramdown
 sass:
     style: compressed
+
+# social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: https://gitlab.com/u/andrewbanchich
+googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/andrewbanchich
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
