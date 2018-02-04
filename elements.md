@@ -4,9 +4,6 @@ title: Aboutme
 nav-menu: true
 ---
 
-<!-- Main -->
-<div id="main" class="alt">
-
 <!-- One -->
 <section id="one">
 	<div class="inner">
