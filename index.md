@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'I'm Alex Guanga'
+landing-title:  'Welcome, I am Alex Guanga'
 description: null
 image: null
 author: null
