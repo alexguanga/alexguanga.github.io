@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Aboutme
+image: assets/images/image1.png
 nav-menu: true
 ---
 
@@ -14,6 +15,7 @@ I am big data junkie. I am majoring (hopefully in December 2017) in Economics wi
 
 I have completed side projects. I like to align my side projects with concepts and topics that I am most passionate about. This tends to finance, customer behavior, baseball, and socioeconomics.
 
+****
 
 ### Past-Times
 Baseball, hip-hop, reading, and fitness have always been a part of my life. I have enjoyed baseball ever since I was five. I have no concrete remembrance of this passion but who the hell cares. Given that I am a New Yorker, I am a Mets fan, which shows a lot about my patience. Other things that I like doing is working out and reading books. You can check out the books I read on my [Instagram](https://www.instagram.com/booktheories).
