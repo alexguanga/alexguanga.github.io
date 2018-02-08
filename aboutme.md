@@ -1,11 +1,9 @@
 ---
 layout: page
 title: Aboutme
-image: assets/images/image1
 nav-menu: true
-image: /assets/images/images/Alex1.jpg
+image: /assets/images/Alex1.jpg
 ---
-![image-title-here](/assets/images/Alex1.jpg){:class="img-responsive"}
 # Hi, I'm Alex.
 ****
 
