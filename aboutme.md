@@ -2,12 +2,12 @@
 layout: page
 title: Aboutme
 nav-menu: true
-image: /assets/images/Alex1.jpg
+image: assets/images/Alex1.jpg
 ---
 # Hi, I'm Alex.
 ****
 
-- "Youth is wasted on the young." George Bernard Shaw
+## _"Youth is wasted on the young."_ - George Bernard Shaw
 - My journey begins New York. Born and raised in Queens, I have encompassed the New York City vibe: work hard and get yours. Or like one of my favorite rappers writes, _Nothing's equivalent to the New York state of mind_.
 - I am recent graduate of the City University of New York, Hunter College. I majored in Economics and minors in Computer Science and Mathematics. During my academic career, I have interned at an NGO, a start-up, and a library. 
 - I was fortunate I found Data Science/Machine Learning. I was also fortunate I crafted an interdisciplinary that prepared with the technical and theoretical frameworks in data science. Using these skills, I have built my skill set by taking Coursera and Udemy courses in data science. I will be creating a review on these courses so stay tuned! Moreover, these courses have helped me tackle side projects on finance, socioeconomic, human behavior, and really anything that captures my attention. 
