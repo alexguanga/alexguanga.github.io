@@ -6,7 +6,7 @@ image: assets/images/Alex1.jpg
 ---
 # Hi, I'm Alex.
 ****
-![Picture description](/assets/images/Alex1.jpg){text-align: center;"}
+![Picture description](/assets/images/Alex1.jpg) ![Picture description](/assets/images/Alex2.jpg)
 ## _"Youth is wasted on the young."_ - George Bernard Shaw
 - My journey begins New York. Born and raised in Queens, I have encompassed the New York City vibe: work hard and get yours. Or like one of my favorite rappers writes, _Nothing's equivalent to the New York state of mind_.
 - I am recent graduate of the City University of New York, Hunter College. I majored in Economics and minors in Computer Science and Mathematics. During my academic career, I have interned at an NGO, a start-up, and a library. 
