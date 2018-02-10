@@ -21,12 +21,13 @@
 	<div class="inner">
                 {% for post in site.posts %}
 		<header class="major">
-			<h1>{{ post.title }}</h1>
+			<h1><a href = {{post.permalink}}> {{ post.title }}</a></h1>
 		</header>
 		{% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
 		{% if post.date %}<p>{{ post.date }}</p>{% endif %}
+		{% if post.description%}<p>{{post.description}}</p>{% endif %}
 		
-                {% endfor %}
+		{% endfor %}
 	</div>
 </section>
 
