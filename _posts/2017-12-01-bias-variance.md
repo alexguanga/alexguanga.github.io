@@ -5,6 +5,7 @@ date: '2017-12-01 0:00:00 -0400'
 categories: learning
 description: 'Understanding bias and variance tradeoff. This is important to understand with figuring out the models to apply.'
 tags: learning, statistics
+permalink: biasvariance.html
 ---
 
 
