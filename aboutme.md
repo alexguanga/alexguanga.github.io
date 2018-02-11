@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Aboutme
+title: About Me
 nav-menu: true
 image: assets/images/Alex1.jpg
 ---

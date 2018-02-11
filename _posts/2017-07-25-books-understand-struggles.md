@@ -1,7 +1,7 @@
-l---
+---
 layout: post
 title: '5 Books that Helped Me Understand Your Struggles'
-date: '2017-07-25 00:00:00 -0400' 
+date: 'July 25th, 2017' 
 categories: thoughts
 description: 'Now to the fun part. As an avid book reader, I have come across some real good
 books. Some of the good books helped me break biases and gain fresh
