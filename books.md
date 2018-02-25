@@ -3,9 +3,7 @@ layout: page
 title: 'Books'
 date: 'November 4th, 2017'
 categories: other
-description: 'Information on books I have read and currently reading.'
-tags: learning, articles, datascience, statistics
-permalink: TotalBooks.html
+nav-menu: true
 ---
 
 
