@@ -3,11 +3,11 @@ layout: page
 title: 'Books'
 date: 'November 4th, 2017'
 nav-menu: true
-image: assets/images/books2.jpg
+image: assets/images/books3.jpg
 ---
 
 <p align="center">
-  <img src="assets/images/books2.jpg">
+  <img src="assets/images/books3.jpg">
 </p>
 
 # Bro, do you even read?
