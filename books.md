@@ -7,7 +7,7 @@ image: assets/images/books2.jpg
 ---
 
 <p align="center">
-  <img src="assets/images/Books2.jpg">
+  <img src="assets/images/books2.jpg">
 </p>
 
 # Bro, do you even read?
