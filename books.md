@@ -6,7 +6,7 @@ nav-menu: true
 ---
 
 <p align="center">
-  <img src="assets/images/books3.jpg">
+  <img src="assets/images/books.jpg">
 </p>
 
 # Bro, do you even read?
