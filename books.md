@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: 'Books'
 date: 'November 4th, 2017'
 categories: other
