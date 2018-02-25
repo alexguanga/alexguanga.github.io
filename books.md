@@ -2,10 +2,13 @@
 layout: page
 title: 'Books'
 date: 'November 4th, 2017'
-categories: other
 nav-menu: true
+image: assets/images/books2.jpg
 ---
 
+<p align="center">
+  <img src="assets/images/Books2.jpg">
+</p>
 
 # Bro, do you even read?
 I’m not going to lie that reading was my passion since I was a child. There were books that I liked here and there, but it was never a daily habit. As a freshman in college, I learned that a lot of successful people read: Jeff Bezos, Warren Buffett, Mark Cuban, and the list continues. Thus, I made it a goal to make reading a daily habit. I think reading has helped me articulate my thoughts better and has taught me ideas I wouldn’t have learned if I only relied on a formal education.
