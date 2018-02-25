@@ -3,7 +3,6 @@ layout: page
 title: 'Books'
 date: 'November 4th, 2017'
 nav-menu: true
-image: assets/images/books3.jpg
 ---
 
 <p align="center">
