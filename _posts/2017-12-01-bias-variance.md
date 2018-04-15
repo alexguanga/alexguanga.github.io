@@ -18,45 +18,51 @@ The Bias VS. Variance tradeoff is a simple yet weird concept to wrap your head a
 [Scott Forman's Article]('http://scott.fortmann-roe.com/docs/BiasVariance.html')
 
 
-#### What does BIAS mean?
-Essentially bias is defined by the accuracy of the predictions. A higher bias means the prediction is further from the reality. Hence, a lower bias means you are the prediction is closer to reality. An analogy is the following: **If you bias towards a certain group of people, you are more likely to assume wrong things about them. This might be because of misleading information or internal biases.** Whatever the case is, a higher bias means more inaccurate information.
+#### What is BIAS?
 
+From EliteDataScience, bias is: *"Bias occurs when an algorithm has limited flexibility to learn the true signal from the dataset.”*
 
-When we have a large bias, we are generalizing our model to fit a dataset. Like the example mentioned, if you generalized a group of people, you are more likely to make a false assumption about them. Also, you are less likely to pick any information on specific people if you are generalizing an entire group.
+Wikipedia states, "... bias is an error from erroneous assumptions in the learning algorithm. High bias can cause an algorithm to miss the relevant relations between features and target outputs (underfitting).”
 
+Bias is the accuracy of our predictions. A high bias means the prediction is inaccurate and vice versa. More intuitively, bias can be thought a 'bias' towards a group of people. If you are highly biased, you are more likely to make wrong assumptions about them. An oversimplified mindset creates an unjust dynamic: you think of them accordingly to your 'bias.’
 
-Forman's article summarized this, *"Bias is the algorithm's tendency to consistently learn the wrong thing by not taking into account all the information in the data (underfitting)."*
+Forman’s article summarized this, “Bias is the algorithm’s tendency to consistently learn the wrong thing by not taking into account all the information in the data (underfitting).”
 
+Thus, parametric algorithms are prone to high bias. A parametric algorithm is defined as, "A learning model that summarizes data with a set of parameters of fixed size (independent of the number of training examples) is called a parametric model. No matter how much data you throw at a parametric model, it won’t change its mind about how many parameters it needs."
 
-A linear regression is an example of a parametric algorithm. These are easier to understand but are not flexible to depict the signal. In turn, they have lower predictive performance on complex problems that fail to meet the simplifying assumptions of the algorithms bias.
-
+A linear regression is an example of a parametric algorithm. These are easy to understand but not flexible to learn the underlying signal of the data. Thus, they are inaccurate for complex datasets.
 
 Examples of high-bias machine learning algorithms include Linear Regression, Linear Discriminant Analysis, and Logistic Regression.
 
 
-#### What does VARIANCE mean?
-Variance is the difference between the application of your model on different datasets. Following the same analogy as before, imagine if you're using a simple model (linear regression) to understand a certain group of people. For the most part, the results will be the same. There is not much going on with an algorithm for each to change among subgroups.
+#### What is VARIANCE?
+
+From EliteDataScience, variance is: *"Variance refers to an algorithm's sensitivity to specific sets of the training set occurs when an algorithm has limited flexibility to learn the true signal from the dataset.”*
+
+Wikipedia states, "... variance is an error from sensitivity to small fluctuations in the training set. High variance can cause an algorithm to model the random noise in the training data, rather than the intended outputs (overfitting)."
+
+Variance measures our model's prediction on different models. Unlike the analogy as before, we are implementing complicated models. Hence, any 'noise' in the dataset, might be captured by the model. A high variance tends to occur when we use complicated models that can overfit our training sets. Using stereotypes, the variance can be thought as having a model for different groups of people.
+
+For example, a complicated model might depict people's name as a good predictor of our hypothesis. However, names are random and should not have any predictive power. In one dataset, people with the name 'Alex' can indicate they are likely to be criminals. However, in another dataset, people with the name 'Alex' can indicate they likely to be graduates. Hence, names are not a great variable to be used but give our complicated models, it believes that a name can be a predictor.
+
+Forman’s described variance as, “Variance is the algorithm’s tendency to learn random things irrespective of the real signal by fitting highly flexible models that follow the error/noise in the data too closely (overfitting).”
+
+#### What is the TRADE-OFF?
+
+- If you have a simple model, you might conclude that every "Alex" are amazing people. This presents a High Bias and Low Variance problem. Your dataset is 'biased' towards people with the name Alex. Thus, most predictions will be similar, since you believe people with 'Alex' act a certain way.
+
+- You attempt to fix the model. However, the model is too complicated. Your model has different results for different groups. Thus, Alex can be a wonderful person, a criminal, an athlete, and a scholar.
+
+- You must find balance! The good thing, if you do Cross-Validation, you can train on many datasets and average their predictions.
+
+Unfortunately, you cannot minimize bias and variance.
+
+1. Low Bias - High Variance: A low bias and high variance problem is overfitting. Different data sets are depicting insights given their respective dataset. Hence, the models will predict differently. However, if average the results, we will have a pretty accurate prediction.
 
 
-However, if the model is more complicated, the results will differ among different groups. It some cases, it might capture the noise instead of the signal. Thus, this means there's a high variance. A high variance tends to occur when we have complicated models that overfit its specific its training sets and performs badly for the testing sets.
+2. High Bias - Low Variance: The predictions will be similar to one another but on average, they are inaccurate.
 
-
-*"Variance is the algorithm's tendency to learn random things irrespective of the real signal by fitting highly flexible models that follow the error/noise in the data too closely (overfitting)."*
-
-
-Meaning, if you trained your dataset and found that people with the name "Alex" are incredible people because that was your sample size, then when you used that algorithm to train the test set, you will get the wrong prediction. Hence, your algorithm picked up too much of the noise, it is overfitting for that specific data.
-
-
-#### Where is does TRADE-OFF?
-Think about it.
-1. If you have a simple and general model, you might conclude that all people with the name Alex are amazing. This will present a High Bias problem.
-2. As you want to fix your model, you have eventually complicated it a lot. Now, your model gives different results among different groups. Thus, Alex can be a wonderful person, a criminal, an athlete, and a scholar.
-3. Thus, you must find a balance! The good thing, if you do Cross-Validation, you can train your data a lot of times and get the average among all the tries.
-
-
-You cannot minimize both at the same time. These are the choices.
-1. Low Bias - High Variance: For this case, on average, be close to the prediction but with each individual case different from one another. Meaning, I might overfit the dataset a bit but on average, I will get a close prediction of the actual.
-2. High Bias - Low Variance. For this case, you can have your data far from the prediction but each case close to one another.
+************************************************************************************
 
 ![alt text](https://www.dropbox.com/s/s71ggnyqj7fhhhd/Bias-Variance-2.png?raw=1 "Logo Title Text 1")
 
