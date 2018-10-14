@@ -28,14 +28,14 @@ permalink: Specificity&Sensitivity.html
 + 50/(50+10) = 83.33%
 
 
-The sensitivity of a test (also called True Positive Rate) is defined as the proportion of people with a disease against everyone who tested positive for the disease. In other words, a highly sensitive test is one that correctly identifies patients with a disease. It’s extremely rare that any clinical test is 100% sensitive. A test with 90% sensitivity will identify 90% of patients who have the disease but will miss 10% of the patients who have the disease.
+The sensitivity of a test (also called True Positive Rate) is the proportion of people with a disease against everyone who tested positive for the disease. In other words, a highly sensitive test is one that correctly identifies patients with the disease. It’s extremely rare that any clinical trial is 100% sensitive. A test with 90% sensitivity will determine 90% of patients who have the disease but will miss 10% of the patients who have the disease.
 
 **Why does the formula use False Negatives?**
 + If an observation is a False Negative, the observation was predicted as False when it was True. Hence, we to find the total number of True Positives.
 
-A highly sensitive test can be useful for ruling out a disease if a person has a negative result. For example, a negative result probably means the person does not have cervical cancer. The acronym widely used is SnNout (high Sensitivity, Negative result = rule out).
+A highly sensitive test can be useful for ruling out a disease if a person has a negative result. For example, a negative outcome probably means the person does not have cervical cancer. The acronym widely used is SnNout (high Sensitivity, Negative outcome = rule out).
 
-If the test is highly sensitive and the test result is negative you can be nearly certain that they don’t have a disease. If you look at the formula, and there's a high sensitivity, the numerator and denominator must be around the same. Thus, the FN in the denominator must fairly small.
+If the test is highly sensitive and the test result is negative, you can be nearly confident that they don’t have a disease. If you look at the formula, and there's a high sensitivity, the numerator and denominator must be around the same. Thus, the FN in the denominator must be reasonably small.
 
 
 ### Specific Test
@@ -47,9 +47,9 @@ The specificity of a test (also called  True Negative Rate) is the proportion of
 **Why does the formula use False Positives?**
 + If an observation is a False Positive, the observation was predicted as True when it was False. Hence, we to find the total number of True Negatives.
 
-A highly specificity rate can be most useful when the result is positive. A highly specific test can be useful for ruling in patients who have a certain disease.
+A high specificity rate can be most useful when the result is positive. A highly specific test can be helpful in ruling in patients who have a particular disease.
 
-In other terms, if the test result for a highly specific test is positive you can be nearly certain that they actually have the disease. Similar to the concept of True Positive Rate. The inverse, 1-True Negative Rate, is FP/(FP+TN). If you look at the formula, and there's a high sensitivity, the numerator and denominator must be around the same. Thus, the FP in the denominator must fairly small.
+In other terms, if the test result for a highly specific test is positive, you can be nearly sure that they have the disease. Similar to the concept of True Positive Rate. The inverse, 1-True Negative Rate, is FP/(FP+TN). If you look at the formula, and there's a high sensitivity, the numerator and denominator must be around the same. Thus, the FP in the denominator must be reasonably small.
 
 ### Extras
 **Classifier Accuracy**
