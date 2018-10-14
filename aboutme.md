@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: post
 title: About Me
 nav-menu: true
-image: assets/images/Alex1.jpg
 ---
 # Hi, I'm Alex.
 ****
@@ -13,7 +12,8 @@ image: assets/images/Alex1.jpg
 ## _"Youth is wasted on the young."_ - George Bernard Shaw
 
 Who am I?
-- Well, it's not too complicated. The majority of the time I spend looking at data. It could either be analyzing, structuring, or cleaning data. Besides data, I'm also a big hip-hop fan, Mets die-hard, and book worm.
+
+Well, it's not too complicated. The majority of the time I spend looking at data. It could either be analyzing, structuring, or cleaning data. Besides data, I'm also a big hip-hop fan, Mets die-hard, and book worm.
 
 Backstory:
 - I was not a 5-year-old answering "I want to be a Data Analyst/Data Scientist." Like most normal 5-years-old, I had aspirations to be MLB player. I then had aspirations to be a rapper. I know, I'm bit all over the place. Anyways, in hindsight, my affinity for lyrics and baseball was conveying facts white maintaining an unbiased position. Even when writing my "bars," I coupled my life experience with research and studies to prove my point. And that's why I am not a famous rapper... Who the fucks wants to hear dense "bars."
@@ -26,12 +26,13 @@ Backstory:
 
 ### Blacklight/ MA
 #### Data Analyst/Tableau Author, January 2018 - Current
+
 After graduation, I've been working in the Digital Media space. At Blacklight/ MA, are a *"digital media and analytics practice engineered to illuminate and scale profitable customer segments resulting in marketing executions that operate ”In the Black”."*
 
 As a 15-person company, our responsibilities vary and thus, we get exposure to different avenues in the digital media space. Currently, I work with the Search and Social team to analyze our performance. I use my analysis to provide recommendation to our clients. I'm also very involved with creating Tableau workbooks. Being heavily involved with Tableau, I still believe data visualization is not appreciated as it should be.
 
 
-<p align="left">
+<p align="center">
   <img src="assets/images/IMG_7861.JPEG">
 </p>
 
@@ -42,7 +43,7 @@ I cannot tell you that I am a consistent writer. However, it is something I am w
 
 Some of favorite pieces are: [Bias VS Variance](https://becominghuman.ai/machine-learning-bias-vs-variance-641f924e6c57) & [Pomodoro Technique, version 4.u.](https://theascent.pub/pomodoro-technique-version-4-u-bf9c1b62032e)
 
-<p align="left">
+<p align="center">
   <img src="assets/images/hunter.jpg">
 </p>
 
@@ -53,7 +54,7 @@ Hunter College provided professors and a counselor (Dr.Liggins) who were more th
 
 During my time at Hunter College, I was exposed to other fields that I did not plan on learning. Topics such American/European history, Women Right, even World Music have shaped how I communicate and embrace people who might have different values.
 
-<p align="left">
+<p align="center">
   <img src="assets/images/IMG_7872.jpeg">
 </p>
 

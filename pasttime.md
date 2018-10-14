@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: post
 title: Pasttimes
 nav-menu: true
-image: assets/images/Alex1.jpg
 
 ---
- I do have a life. I do not only prioritize work and improving in the data science field. Most people would not agree with that statement. They just hatin'. Anyways, the following are some of my favorite past times.
+
+
+I do have a life. I do not only prioritize work and improving in the data science field. Most people would not agree with that statement. They just hatin'. Anyways, the following are some of my favorite past times.
 
 
 
