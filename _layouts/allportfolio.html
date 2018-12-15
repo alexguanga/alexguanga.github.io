@@ -19,21 +19,19 @@
 <!-- One -->
 <section id="one">
         <div class="inner">
-                {% for projects in site.projects %}
+                {% for project in site.projects %}
                 <header class="major">
-                        <h1><a href = {{projects.permalink}}> {{ projects.title }}</a></h1>
+                        <h1><a href = {{project.permalink}}> {{ project.title }}</a></h1>
                 </header>
-                {% if projects.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ projects.image }}" alt="" /></span>{% endif %}
-                {% if projects.date %}<p>{{ projects.date }}</p>{% endif %}
-                {% if projects.description%}<p>{{projects.description}}</p>{% endif %}
+                {% if project.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ projects.image }}" alt="" /></span>{% endif %}
+                {% if project.date %}<p>{{ project.date }}</p>{% endif %}
+                {% if project.description%}<p>{{project.description}}</p>{% endif %}
 
                 {% endfor %}
         </div>
 </section>
 
 </div>
-
-    {% include footer.html %}
 
 </body>
 
