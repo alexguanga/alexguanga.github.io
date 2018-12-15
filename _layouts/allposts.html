@@ -10,9 +10,9 @@
 
 <body>
 
-    {% include header.html %} 
-    
-    
+    {% include header.html %}
+
+
 <!-- Main -->
 <div id="main" class="alt">
 
@@ -26,15 +26,12 @@
 		{% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
 		{% if post.date %}<p>{{ post.date }}</p>{% endif %}
 		{% if post.description%}<p>{{post.description}}</p>{% endif %}
-		
+
 		{% endfor %}
 	</div>
 </section>
 
 </div>
-
-    {% include footer.html %}
-
 </body>
 
 </html>
