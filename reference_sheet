@@ -1,4 +1,4 @@
 
 10/14: I am not sure yet, but I think the way to publish the articles is to commit them (git)
-For nav-menu: /Users/alexguanga/All_Projects/PersonalWebsite/_includesy
+For nav-menu: /Users/alexguanga/All_Projects/PersonalWebsite/_includes
 If you want to add new posts, make sure you add them to the posts page, if you want to include new pages (in the nav_menu)
